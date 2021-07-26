@@ -17,7 +17,7 @@ inputs:
       - 'node_modules/@(qrcode-terminal|http-server)/**'
   handler: index.main_handler #入口
   runtime: Nodejs12.16 # 运行环境 默认 Nodejs12.16
-  region: ap-guangzhou # 函数所在区域
+  region: ap-shanghai # 函数所在区域
   description: This is a function in ${app} application.
   memorySize: 64 # 内存大小，单位MB
   timeout: 21600 # 超时时间，单位秒
@@ -38,10 +38,10 @@ inputs:
           argument: jd_bean_change&jd_unsubscribe&jd_lotteryMachine&jd_jxqd&jd_ms&jd_jin_tie&jd_get_share_code
     - timer: #东东农场 #东东萌宠 #京喜农场 #京东极速版红包 #口袋书店 #健康社区 #柠檬我是大老板
         parameters:
-          name: fruit_pet_jxnc_speedsign_speedredpocke_bookshop_wsdlb
+          name: fruit_pet_speedsign_speedredpocke_bookshop_wsdlb
           cronExpression: "0 15 0-18/6 * * * *"
           enable: true
-          argument: jd_fruit&jd_pet&jd_jxnc&jd_speed_sign&jd_speed_redpocke&jd_bookshop&jd_health&jd_wsdlb
+          argument: jd_fruit&jd_pet&jd_speed_sign&jd_speed_redpocke&jd_bookshop&jd_health&jd_wsdlb
     - timer: #摇钱树 #摇钱树助力 #京东种豆得豆 #京喜财富岛
         parameters:
           name: feedPets_moneyTree_plantBean_dreamFactory_jdfactory_cfd
