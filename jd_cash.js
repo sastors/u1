@@ -35,7 +35,7 @@ const inviteCodes = [
 'a0JmM7jjObtjuwGI@eU9YMYvhLoVaiS6dtRZZ@eU9Yar-3YK4m-GmGn3VA0A@Ih00buqxZP8l7GnXzHEU3g',
 'a0JmM7jjObtjuwGI@eU9Yar-3YK4m-GmGn3VA0A@Ih00buqxZP8l7GnXzHEU3g',
 'a0JmM7jjObtjuwGI@eU9YMYvhLoVaiS6dtRZZ@Ih00buqxZP8l7GnXzHEU3g',
-'a0JmM7jjObtjuwGI@eU9YMYvhLoVaiS6dtRZZ@eU9Yar-3YK4m-GmGn3VA0A'
+'a0JmM7jjObtjuwGI@eU9YMYvhLoVaiS6dtRZZ@eU9Yar-3YK4m-GmGn3VA0A',
 ]
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
